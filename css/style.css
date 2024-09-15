@@ -5,6 +5,7 @@
 }
 
 
+
 .navbar{
     background-color: rgb(67, 129, 38);
     display: flex;
@@ -76,9 +77,12 @@ input {
 }
 
 .galeria {
+   
     align-items: center;
-    justify-content:flex;
+    justify-content: center;
     margin: 300px;
+    
+
 }
 
 
