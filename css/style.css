@@ -99,6 +99,20 @@ input {
     
   }
 
+  .h1 {
+    size: 50px;
+  }
+
+  .galeria img{
+    size-adjust: auto;
+    
+       
+  }
+
+  .galeria {
+    display: grid;
+    
+  }
 
 }
 
