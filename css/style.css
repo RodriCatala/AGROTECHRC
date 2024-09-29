@@ -79,7 +79,22 @@ input {
   width: 300px;
 }
 
+.col :hover{
+  filter: brightness(1.2);
+  transition: filter 0.5s ease;
+  transform: scale(1.05);
+  border-radius: 5px;
+
+  
+  }
+
 @media (max-width: 575.98px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
   .navbar {
     background-color: rgb(67, 129, 38);
@@ -105,7 +120,7 @@ input {
 
   .galeria img{
     size-adjust: auto;
-    
+
        
   }
 
@@ -113,6 +128,7 @@ input {
     display: grid;
     
   }
+
 
 }
 
