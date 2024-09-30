@@ -163,8 +163,21 @@ input
   }
 
   .h1 
+  
   {
     size: auto;
+  }
+
+  .h2 
+  
+  {
+    text-align: left;
+  }
+
+  .p
+  
+  {
+    text-align: left;
   }
 
   .galeria img
