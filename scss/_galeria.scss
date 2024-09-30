@@ -1,10 +1,34 @@
 
 
-.galeria {
+.galeria 
+    
+    {
    
     align-items: center;
     justify-content: center;
     margin: 300px;
     
-}
+    }
+
+.col :hover
+    
+    {
+    
+    filter: brightness(1.2);
+    transition: filter 0.8s ease;
+    transform: scale(1.05);
+    border-radius: 5px;
+    @keyframes girar {
+        0% {
+            transform: rotate(0deg);
+        }
+        50% {
+            transform: rotate(180deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+  
+    }
 

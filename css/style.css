@@ -1,4 +1,6 @@
-.navbar {
+.navbar 
+
+{
   background-color: rgb(67, 129, 38);
   display: flex;
   justify-content: space-evenly;
@@ -6,7 +8,9 @@
   padding: 50px;
 }
 
-.nav-item {
+.nav-item 
+
+{
   color: #000000;
   text-decoration: solid;
   padding: 20px 70px;
@@ -17,22 +21,29 @@
   font-family: Bebas Neue, sans-serif;
 }
 
-.navbar a:hover {
+.navbar a:hover 
+
+{
   background-color: rgb(241, 235, 199);
 }
 
-* {
+*
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header {
+header 
+
+{
   margin: 0px;
   padding: 0px;
 }
 
-footer {
+footer 
+
+{
   text-align: center;
   justify-content: center;
   color: black;
@@ -43,7 +54,9 @@ footer {
   font-style: italic;
 }
 
-.redes {
+.redes 
+
+{
   color: black;
   text-decoration: none;
   display: flexbox;
@@ -52,58 +65,89 @@ footer {
   margin-left: 200px;
 }
 
-body {
+body 
+
+{
   background-color: rgba(176, 255, 165, 0.712);
   margin: 10 px;
 }
 
-.formcarry-form {
+.formcarry-form
+{
   margin: 50px;
 }
 
-.galeria {
+.galeria 
+
+{
   align-items: center;
   justify-content: center;
   margin: 300px;
 }
 
-.video {
+.video 
+{
   align-items: normal;
   justify-content: center;
   display: flex;
   padding: 80px;
 }
 
-input {
+input
+ {
   height: 50px;
   width: 300px;
 }
 
-.col :hover{
-  filter: brightness(1.2);
-  transition: filter 0.5s ease;
-  transform: scale(1.05);
-  border-radius: 5px;
+.col :hover
 
+  {
+  filter: brightness(1.2);
+  transition: filter 0.8s ease;
+  transform: scale(1.05);
+  border-radius: 5px;  
   
+  }
+
+  .banner {
+    animation: IzqaDer 7s infinite;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  @keyframes IzqaDer{
+    from 
+    {
+      transform: translateX(-80%);
+    }
+    to 
+    {
+      transform: translateX(%0);
+    }
   }
 
 @media (max-width: 575.98px) {
 
-  * {
+  * 
+  {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-  .navbar {
+  .navbar 
+  
+  {
     background-color: rgb(67, 129, 38);
     display:grid;
     justify-content:flex-start;
     padding: 10px;
   }
   
-  .nav-item {
+  .nav-item 
+  
+  {
     color: #000000;
     text-decoration: solid;
     background-color: rgba(255, 255, 255, 0.432);
@@ -114,19 +158,19 @@ input {
     
   }
 
-  .h1 {
+  .h1 
+  {
     size: 50px;
   }
 
-  .galeria img{
-    size-adjust: auto;
-
-       
+  .galeria img
+  {
+    size-adjust: auto;       
   }
 
-  .galeria {
-    display: grid;
-    
+  .galeria 
+  {
+    display: grid;    
   }
 
 
