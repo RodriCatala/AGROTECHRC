@@ -12,12 +12,12 @@
 
 {
   color: #000000;
-  text-decoration: solid;
-  padding: 20px 70px;
+  text-decoration:solid;
+  padding: 10px 30px;
+  margin: 2px;
   background-color: rgba(255, 255, 255, 0.432);
-  border-radius: 4;
-  border-style: ridge;
-  font-size: 3rem;
+  border-style:inset;
+  font-size: 2rem;
   font-family: Bebas Neue, sans-serif;
 }
 
@@ -48,10 +48,9 @@ footer
   justify-content: center;
   color: black;
   background-color: rgb(67, 129, 38);
-  padding: 40px;
-  margin: 0 px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-style: italic;
+  padding: 20px;
+  margin: 0px;
+  
 }
 
 .redes 
@@ -80,8 +79,6 @@ body
 .galeria 
 
 {
-  align-items: center;
-  justify-content: center;
   margin: 300px;
 }
 
@@ -115,7 +112,7 @@ input
   
   {
     animation: IzqaDer 7s infinite;
-    max-width: 100%;
+    max-width: 90%;
     overflow: hidden;
     position: relative;
   }
