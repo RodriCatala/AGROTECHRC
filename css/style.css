@@ -193,6 +193,13 @@ input
     position: relative;
   }
 
+.imgredes
+
+{
+  width: 100px;
+
+}
+
   @keyframes IzqaDer{
     from 
     {
@@ -324,9 +331,12 @@ input
   transition: filter 0.8s ease;
   transform: scale(1.05);
   border-radius: 5px;  
-  
   }
 
+  .imgredes
+  {
+    width: 50px;
+  }
 
 }
 
